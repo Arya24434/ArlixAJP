@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ArlixAJP.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="UserAccount" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DashBoardBackImage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Arlix\Green.jpg</Value>
+    </Setting>
+    <Setting Name="SqlServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SqlSecurity" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SqlUserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SqlPassWord" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SqlDataBase" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CompName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PT. Adent Jaya Plasindo</Value>
+    </Setting>
+    <Setting Name="CompAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Jl.Kawasan Industri MM2100 Blok MM-OO No G2, Jl. Jatiwangi, RT.003/RW.2, Kec. Cikarang Barat, Bekasi, Jawa Barat 17530</Value>
+    </Setting>
+    <Setting Name="CompPhone" Type="System.String" Scope="User">
+      <Value Profile="(Default)">021 - 8998 - 3733</Value>
+    </Setting>
+    <Setting Name="CompEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">adentjayaplasindo@gmail.com</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetAccount" targetNamespace="http://tempuri.org/DataSetAccount.xsd" xmlns:mstns="http://tempuri.org/DataSetAccount.xsd" xmlns="http://tempuri.org/DataSetAccount.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetAccount" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetAccount" msprop:Generator_UserDSName="DataSetAccount">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AccountReport" msprop:Generator_TableClassName="AccountReportDataTable" msprop:Generator_TableVarName="tableAccountReport" msprop:Generator_TablePropName="AccountReport" msprop:Generator_RowDeletingName="AccountReportRowDeleting" msprop:Generator_RowChangingName="AccountReportRowChanging" msprop:Generator_RowEvHandlerName="AccountReportRowChangeEventHandler" msprop:Generator_RowDeletedName="AccountReportRowDeleted" msprop:Generator_UserTableName="AccountReport" msprop:Generator_RowChangedName="AccountReportRowChanged" msprop:Generator_RowEvArgName="AccountReportRowChangeEvent" msprop:Generator_RowClassName="AccountReportRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AccountID" msprop:Generator_ColumnVarNameInTable="columnAccountID" msprop:Generator_ColumnPropNameInRow="AccountID" msprop:Generator_ColumnPropNameInTable="AccountIDColumn" msprop:Generator_UserColumnName="AccountID" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountName" msprop:Generator_ColumnVarNameInTable="columnAccountName" msprop:Generator_ColumnPropNameInRow="AccountName" msprop:Generator_ColumnPropNameInTable="AccountNameColumn" msprop:Generator_UserColumnName="AccountName" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountAlias" msprop:Generator_ColumnVarNameInTable="columnAccountAlias" msprop:Generator_ColumnPropNameInRow="AccountAlias" msprop:Generator_ColumnPropNameInTable="AccountAliasColumn" msprop:Generator_UserColumnName="AccountAlias" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountPhone" msprop:Generator_ColumnVarNameInTable="columnAccountPhone" msprop:Generator_ColumnPropNameInRow="AccountPhone" msprop:Generator_ColumnPropNameInTable="AccountPhoneColumn" msprop:Generator_UserColumnName="AccountPhone" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountCompany" msprop:Generator_ColumnVarNameInTable="columnAccountCompany" msprop:Generator_ColumnPropNameInRow="AccountCompany" msprop:Generator_ColumnPropNameInTable="AccountCompanyColumn" msprop:Generator_UserColumnName="AccountCompany" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountAddress" msprop:Generator_ColumnVarNameInTable="columnAccountAddress" msprop:Generator_ColumnPropNameInRow="AccountAddress" msprop:Generator_ColumnPropNameInTable="AccountAddressColumn" msprop:Generator_UserColumnName="AccountAddress" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountEmail" msprop:Generator_ColumnVarNameInTable="columnAccountEmail" msprop:Generator_ColumnPropNameInRow="AccountEmail" msprop:Generator_ColumnPropNameInTable="AccountEmailColumn" msprop:Generator_UserColumnName="AccountEmail" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountGender" msprop:Generator_ColumnVarNameInTable="columnAccountGender" msprop:Generator_ColumnPropNameInRow="AccountGender" msprop:Generator_ColumnPropNameInTable="AccountGenderColumn" msprop:Generator_UserColumnName="AccountGender" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountType" msprop:Generator_ColumnVarNameInTable="columnAccountType" msprop:Generator_ColumnPropNameInRow="AccountType" msprop:Generator_ColumnPropNameInTable="AccountTypeColumn" msprop:Generator_UserColumnName="AccountType" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountNote" msprop:Generator_ColumnVarNameInTable="columnAccountNote" msprop:Generator_ColumnPropNameInRow="AccountNote" msprop:Generator_ColumnPropNameInTable="AccountNoteColumn" msprop:Generator_UserColumnName="AccountNote" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
